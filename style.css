@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: linear-gradient(120deg, #89f7fe, #66a6ff);
+    /* background-image: url("anime-sun.jpg");
+    background-size: cover; */
+    font-family: sans-serif;
+}
+
+.container{
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.container h2{
+    margin-bottom: 20px;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:425px) {
+    .container{
+        width: 290px;
+        padding: 20px 15px;
+    }
+}
+
+input{
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #66a6ff;
+    border-radius: 8px;
+    outline: none;
+}
+
+button{
+    background: #2a83ff;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #0066ff;
+}
+
+.weather-info img{
+    width: 80px;
+    margin-top: 10px;
+}
+
+.error{
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.hidden{
+    display: none;
+}
