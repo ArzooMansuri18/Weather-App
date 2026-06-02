@@ -2,8 +2,7 @@
 
 <p>This project is a functional <b>Weather Application</b> built using <b>HTML, CSS and JavaScript.</b> Users can search for any city, and the app displays temperature, weather conditions, humidity, and wind speed using real-time data from a weather API.</p>
 
-<h2>Live Demo:</h2>
-<p>https://arzoomansuri18.github.io/Weather-App/</p>
+<h2>Live Demo: https://arzoomansuri18.github.io/Weather-App/</h2>
 
 <h2>Features</h2>
 
